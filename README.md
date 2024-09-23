@@ -87,15 +87,17 @@ CSIRO MIT/BSD LICENSE
 
 As a condition of this licence, you agree that where you make any adaptations, modifications, further developments, or additional features available to CSIRO or the public in connection with your access to the Software, you do so on the terms of the BSD 3-Clause Licence template, a copy available at: http://opensource.org/licenses/BSD-3-Clause.
 
+**If you find this repository helpful please star it as this helps us continue our work. Thank you.**
 
 # CITATION     
-**TO BE UPDATED**    
 ```
-@misc{Diakogiannis2024FluffyClouds,     
-  author       = {Foivos I. Diakogiannis and Zheng-Shu Zhou and Jeff Wang and Gonzalo Mata and Dave Henry and Roger Lawes and Amy Parker and Peter Caccetta and Rodrigo Ibate and Ondrej Hlinka and Jonathan Richetti and Kathryn Batchelor and Chris Herrmann and Andrew Toovey and John Taylor},       
-  title        = {Tackling Fluffy Clouds: Field Boundaries Detection Using Time Series of S2 and/or S1 Imagery},      
-  howpublished = {Preprint, to be submitted to arXiv},      
-  year         = {2024},      
-  note         = {Data61, CSIRO, Floreat WA, Australia}      
-}      
+@misc{diakogiannis2024tacklingfluffycloudsfield,
+      title={Tackling fluffy clouds: field boundaries detection using time series of S2 and/or S1 imagery}, 
+      author={Foivos I. Diakogiannis and Zheng-Shu Zhou and Jeff Wang and Gonzalo Mata and Dave Henry and Roger Lawes and Amy Parker and Peter Caccetta and Rodrigo Ibata and Ondrej Hlinka and Jonathan Richetti and Kathryn Batchelor and Chris Herrmann and Andrew Toovey and John Taylor},
+      year={2024},
+      eprint={2409.13568},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2409.13568}, 
+}     
 ```
