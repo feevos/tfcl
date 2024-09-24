@@ -36,7 +36,7 @@ Container ready for use can be found on
 
 
 ## Model forward 
-We provide demo notebooks that show how the models, PTAViT3D and PTAViT3D-CA can be used (demo forward). Please see the [ssg2](https://github.com/feevos/ssg2) repository for further details on RocksDB dataset creation and additional information. We recommend using the dataset [ai4boundaries](https://github.com/waldnerf/ai4boundaries/tree/main) for your experiments, that provides time series of Sentinel2 images and corresponding ground truth labels. 
+We provide demo notebooks that show how the models, PTAViT3D and PTAViT3D-CA can be used (demo forward). Please see the [ssg2](https://github.com/feevos/ssg2) repository for further details on RocksDB dataset creation and additional information. We recommend using the dataset [ai4boundaries](https://github.com/waldnerf/ai4boundaries/tree/main) for your experiments, that provides time series of Sentinel2 images and corresponding ground truth labels.  **Update**: added demo training notebook for the PTAViT3D model too.
 
 
 
