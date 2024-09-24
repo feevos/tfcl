@@ -1,5 +1,5 @@
 # Tackling fluffy clouds: field boundaries detection using time series of S2 and/or S1 imagery
-Official repository for our manuscript [Tackling fluffy clouds: field boundaries detection using time series of S2 and/or S1 imagery.](https://arxiv.org/comingsoon). 
+Official repository for our manuscript [Tackling fluffy clouds: field boundaries detection using time series of S2 and/or S1 imagery.](https://arxiv.org/abs/2409.13568). 
 
 # Model Brief: 3D Vision Transformer for Field Boundary Delineation
 
