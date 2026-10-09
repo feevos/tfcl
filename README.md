@@ -1,5 +1,5 @@
 # Tackling fluffy clouds: field boundaries detection using time series of S2 and/or S1 imagery
-Official repository for our manuscript [Tackling fluffy clouds: field boundaries detection using time series of S2 and/or S1 imagery.](https://arxiv.org/abs/2409.13568). 
+Official repository for our manuscript (published in RSE) [Tackling fluffy clouds: robust agricultural field boundary delineation from Sentinel-1 and Sentinel-2 satellite image time series](https://www.sciencedirect.com/science/article/pii/S0034425726004657) - [ArxivVersion](https://arxiv.org/abs/2409.13568). 
 
 # Model Brief: 3D Vision Transformer for Field Boundary Delineation
 
@@ -91,13 +91,17 @@ As a condition of this licence, you agree that where you make any adaptations, m
 
 # CITATION     
 ```
-@misc{diakogiannis2024tacklingfluffycloudsfield,
-      title={Tackling fluffy clouds: field boundaries detection using time series of S2 and/or S1 imagery}, 
-      author={Foivos I. Diakogiannis and Zheng-Shu Zhou and Jeff Wang and Gonzalo Mata and Dave Henry and Roger Lawes and Amy Parker and Peter Caccetta and Rodrigo Ibata and Ondrej Hlinka and Jonathan Richetti and Kathryn Batchelor and Chris Herrmann and Andrew Toovey and John Taylor},
-      year={2024},
-      eprint={2409.13568},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2409.13568}, 
-}     
+@article{DIAKOGIANNIS2026115695,
+	abstract = {Accurate delineation of agricultural field boundaries is essential for effective crop monitoring and resource management. However, competing methodologies often face significant challenges, particularly in their reliance on extensive manual efforts for cloud-free data curation and their limited adaptability to diverse global conditions. In this paper, we introduce PTAViT3D, a deep learning architecture specifically designed for processing three-dimensional time series of satellite imagery from either Sentinel-1 (S1) or Sentinel-2 (S2). Additionally, we present PTAViT3D-CA, an extension of the PTAViT3D model incorporating cross-attention mechanisms to fuse S1 and S2 datasets, enhancing robustness in cloud-contaminated scenarios. The proposed methods leverage spatio-temporal correlations through a memory-efficient 3D Vision Transformer architecture, facilitating accurate boundary delineation directly from preprocessed, cloud-affected imagery. We comprehensively validate our models through extensive testing on various datasets, including Australia’s ePaddocks™ – CSIRO’s national, continental-scale agricultural field boundary product covering Australia’s cropping regions – alongside public benchmarks Fields-of-the-World, PASTIS, and AI4SmallFarms. Our results consistently demonstrate state-of-the-art performance, highlighting excellent global transferability and robustness. Crucially, our approach significantly simplifies data preparation workflows by reliably processing cloud-affected imagery, thereby offering strong adaptability across diverse agricultural environments. Our code and models are publicly available at https://github.com/feevos/tfcl.},
+	author = {Foivos I. Diakogiannis and Zheng-Shu Zhou and Jeff Wang and Gonzalo Mata and Dave Henry and Roger Lawes and Amy Parker and Peter Caccetta and Suzanne Furby and Rodrigo Ibata and Ondrej Hlinka and Jonathan Richetti and Kathryn Batchelor and Chris Herrmann and Andrew Toovey and John Taylor},
+	doi = {10.1016/j.rse.2026.115695},
+	issn = {0034-4257},
+	journal = {Remote Sensing of Environment},
+	keywords = {Agricultural field delineation, Agricultural parcel segmentation, Satellite image time series, Semantic segmentation, Vision transformer, Multisensor data fusion, Cloud contamination},
+	pages = {115695},
+	title = {Tackling fluffy clouds: robust agricultural field boundary delineation from Sentinel-1 and Sentinel-2 satellite image time series},
+	url = {https://www.sciencedirect.com/science/article/pii/S0034425726004657},
+	volume = {347},
+	year = {2026}
+}
 ```
